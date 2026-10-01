@@ -20,5 +20,8 @@ h1{
 .grid-container{
     display: grid;
     border: 1px solid red;
-    grid-template-columns: repeat(10, 250px);
+    grid-template-columns: 
+    repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
 }
